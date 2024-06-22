@@ -4,6 +4,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:pamukkale_app/data/service/auth_service.dart';
 
 class SignUpCubit extends Cubit<void>{
   SignUpCubit():super(0);
