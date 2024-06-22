@@ -7,6 +7,7 @@ import 'package:pamukkale_app/ui/views/login.dart';
 import 'package:pamukkale_app/ui/views/my_profile.dart';
 import 'package:pamukkale_app/ui/views/trips.dart';
 
+
 class Home extends StatefulWidget {
 
   const Home({Key? key}) : super(key: key);
