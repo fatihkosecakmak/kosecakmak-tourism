@@ -77,7 +77,7 @@ class _AddTripState extends State<AddTrip> {
 
             ),
             InputText(hintText: "25", labelText: "Koltuk Sayısı", ObscureText: false, controller: totalSeatsController,enabled: true,),
-            InputText(hintText: "8:35", labelText: "Varış Saati", ObscureText: false, controller: arrivalTimeController,enabled: true),
+            InputText(hintText: "4:30", labelText: "Tahmini Varış Saati", ObscureText: false, controller: arrivalTimeController,enabled: true),
             InputText(hintText: "15:00", labelText: "Kalkış saati", ObscureText: false, controller: departureTimeController,enabled: true),
             TextButton(
                 style: TextButton.styleFrom(minimumSize: const Size(250, 50),backgroundColor: const Color(0xffE30613),shape: RoundedRectangleBorder(borderRadius: BorderRadiusDirectional.circular(2))),

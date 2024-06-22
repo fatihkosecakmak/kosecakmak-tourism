@@ -27,10 +27,15 @@ class _TripDetailState extends State<TripDetail> {
           child: Column(
             children: [
               SizedBox(height: 100,),
-              InputText(hintText: widget.response.price, labelText: "price",controller: priceController,enabled: true,ObscureText: false),
-              InputText(hintText: widget.response.departureTime, labelText: "departureTime",controller: departureTimeController,enabled: true,ObscureText: false),
-              InputText(hintText: widget.response.arrivalTime, labelText: "arrivalTime",controller: arrivalTimeController,enabled: true,ObscureText: false),
-              InputText(hintText: widget.response.date, labelText: "date",controller: dateController,enabled: true,ObscureText: false),
+              Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Text("${widget.response.departure} -> ${widget.response.arrival}"),
+              ),
+              SizedBox(height: 30,),
+              InputText(hintText: widget.response.price, labelText: "fiyat",controller: priceController,enabled: true,ObscureText: false),
+              InputText(hintText: widget.response.departureTime, labelText: "kalkış saati",controller: departureTimeController,enabled: true,ObscureText: false),
+              InputText(hintText: widget.response.arrivalTime, labelText: "tahmini varış",controller: arrivalTimeController,enabled: true,ObscureText: false),
+              InputText(hintText: widget.response.date, labelText: "tarih",controller: dateController,enabled: true,ObscureText: false),
 
               TextButton(
                   style: TextButton.styleFrom(minimumSize: const Size(250, 50),backgroundColor: const Color(0xffE30613),shape: RoundedRectangleBorder(borderRadius: BorderRadiusDirectional.circular(2))),

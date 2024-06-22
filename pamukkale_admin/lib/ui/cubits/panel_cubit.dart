@@ -37,6 +37,7 @@ class PanelCubit extends Cubit<PanelState>{
     });
   }
   Future<void> deleteTravel(String docId)async {
-    tripCollection.doc(docId).delete();
+    print(docId);
+   tripCollection.doc(docId).delete();
   }
 }

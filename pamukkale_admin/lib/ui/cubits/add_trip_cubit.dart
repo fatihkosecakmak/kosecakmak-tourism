@@ -40,7 +40,7 @@ class AddTripCubit extends Cubit<void>{
 
     String docId = docRef.id;
 
-    await docRef.update({"docId": docId});
+    await docRef.update({"doc_id": docId});
 
     CollectionReference seatsCollection = docRef.collection('seats');
 
@@ -51,5 +51,6 @@ class AddTripCubit extends Cubit<void>{
         "status": "available",
       });
     }
+    print(add.toString());
   }
 }
