@@ -19,7 +19,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+  return MultiBlocProvider(
+      providers: [
+        BlocProvider(create: (context) => AddTripCubit(),),
+        BlocProvider(create: (context) => LoginCubit(),),
+        BlocProvider(create: (context) => PanelCubit(),),
+        BlocProvider(create: (context) => TripDetailCubit(),),
+      ],
+      child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
@@ -28,7 +35,8 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
         ),
         home: const Login(),
-      );
+      ),
+    );
   
   }
 }
