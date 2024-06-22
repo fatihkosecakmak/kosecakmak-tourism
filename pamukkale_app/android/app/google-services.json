@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "650787414710",
+    "project_id": "kosecakmakturizm",
+    "storage_bucket": "kosecakmakturizm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650787414710:android:6fc86cbc034852d228fc17",
+        "android_client_info": {
+          "package_name": "com.example.pamukkale_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlXrkn6UvVjuPExLS65Drg_W570_gDBlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
