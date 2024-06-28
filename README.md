@@ -9,6 +9,10 @@ Bus Ticket App Clone
 
 **Uygulama Adresi:** https://www.pamukkale.com.tr/
 
+**Pamukkale clone app** https://youtu.be/wt6LH988NVs
+  
+**Pamukkale clone app admin** https://youtu.be/_l9luR5318I   
+
 **Grubun Adı :** mudhorn clan
 
 **Proje Ekibi:** Fatih  Köseçakmak
